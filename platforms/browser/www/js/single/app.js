@@ -62,11 +62,11 @@ function choose_level_singleplayer() {
       // Exclude huge numer of cards
       else if (num > 1000000) {
         num = 1000000;
-        close_screen("level_screen");
-        open_screen("game_part_one");
-        memory_number = num;
-        new_game(num);
       };
+      close_screen("level_screen");
+      open_screen("game_part_one");
+      memory_number = num;
+      new_game(num);
     };
     // snaps grabs the svg element from dom and appends the following code to it
     snapz = Snap("#game_screen_card");

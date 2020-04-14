@@ -89,16 +89,16 @@ input[type=text] {
   position: absolute;
   display: block;
   margin: auto;
-  width: 15em;
-  height: 3em;
+  width: 16em;
+  height: 4em;
   left: 0;
   right: 0;
-  top: 28em;
+  top: 40em;
   padding: 0.2em 0.9em;
   box-sizing: border-box;
   border-radius: 1em;
   -webkit-appearance: none;
-    -moz-appearance: none;
+  -moz-appearance: none;
   text-align: center;
   text-shadow: 0 0 0 black;
 }
