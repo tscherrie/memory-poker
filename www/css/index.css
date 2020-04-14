@@ -40,8 +40,8 @@ body {
 }
 
 
-/* HIDE ALL MAIN ELEMENTS AT FIRST */
-#level_screen, #game_part_one, #between_screen, #game_part_two, #looser, #winner, #highscore, .form-popup {
+/* HIDE ALL SCREEN AT FIRST */
+.screen .form-popup {
     display:none;
 }
 
