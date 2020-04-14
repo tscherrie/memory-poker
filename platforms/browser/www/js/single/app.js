@@ -244,9 +244,21 @@ function looser() {
 // Highscore
 
 function highscore () {
-  close_screen("looser");
-  close_screen("winner");
-  open_screen("highscore");
+  // Use SNAP library doc: http://snapsvg.io/docs/
+  // load the remember card
+  Snap.load("./img/cards-svg/highscore.svg" , function(card){
+    // the group of suits and ranks has an id in the svg file, defined with INKSCAPE
+    var solo = card.select("#new_game_btn");
+    solo.node.onclick = function () {
+      close_screen("looser");
+      close_screen("winner");
+      open_screen("highscore");
+    };
+    // snaps grabs the svg element from dom and appends the following code to it
+    snapw = Snap("#highscore_card");
+    // TODO don't append each time
+    snapw.append(card);
+  });
 };
 
 document.getElementById("newgame").addEventListener("click", function(){

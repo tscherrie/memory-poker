@@ -82,7 +82,7 @@ input[type=text] {
 }
 
 /* When the inputs get focus, do something */
-#card_input {
+#card_input, #scoreboard_text{
   background-color: transparent;
   color: transparent;
   outline: none;

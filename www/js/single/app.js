@@ -244,26 +244,24 @@ function looser() {
 // Highscore
 
 function highscore () {
-  close_screen("looser");
-  close_screen("winner");
-  open_screen("highscore");
-};
-
-document.getElementById("newgame").addEventListener("click", function(){
-  close_screen("highscore");
-  window.location.reload(true);
+  // Use SNAP library doc: http://snapsvg.io/docs/
+  // load the remember card
+  Snap.load("./img/cards-svg/highscore.svg" , function(card){
+    // the group of suits and ranks has an id in the svg file, defined with INKSCAPE
+    var solo = card.select("#new_game_btn");
+    solo.node.onclick = function () {
+      close_screen("looser");
+      close_screen("winner");
+      open_screen("highscore");
+    };
+    // snaps grabs the svg element from dom and appends the following code to it
+    snapw = Snap("#highscore_card");
+    // TODO don't append each time
+    snapw.append(card);
   });
-
-
-
-function scoreboard() {
-  var name = 'Jeremias';
-  var score = '1000';
-  var i = 1;
-  var userids = "user1;user2;";
-  var num = userids.split(";").length;
-  document.getElementById("#scoreboard_tbody").append("<tr> <td>" + i + "</td><td><img class='avatar' src=''/>"+name+"</td><td>" + score + "</td></tr>");
 };
+
+
 
 
 
