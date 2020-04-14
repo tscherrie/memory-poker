@@ -46,22 +46,86 @@ body {
 }
 
 
+/* Sortable tables */
+table.sortable thead {
+    background-color: transparent;
+    color: black;
+    font-weight: bold;
+    cursor: default;
+}
 
 
 
+html>body tbody.scrollContent {
+	display: block;
+	height: 300px;
+	overflow: auto;
+	width: 100%;
+  text-align: center;
+}
+
+/* define width of TH elements: 1st, 2nd, and 3rd respectively.          */
+/* Add 16px to last TH for scrollbar padding. All other non-IE browsers. */
+/* http://www.w3.org/TR/REC-CSS2/selector.html#adjacent-selectors        */
+html>body thead.fixedHeader th {
+	width: 200px
+}
+
+html>body thead.fixedHeader th + th {
+	width: 240px
+}
+
+html>body thead.fixedHeader th + th + th {
+	width: 316px
+}
+
+html>body thead.fixedHeader th + th + th + th {
+	width: 332px
+}
+
+/* define width of TD elements: 1st, 2nd, and 3rd respectively.          */
+/* All other non-IE browsers.                                            */
+/* http://www.w3.org/TR/REC-CSS2/selector.html#adjacent-selectors        */
+html>body tbody.scrollContent td {
+	width: 200px
+}
+
+html>body tbody.scrollContent td + td {
+	width: 240px
+}
+
+html>body tbody.scrollContent td + td + td {
+	width: 300px
+}
+
+html>body tbody.scrollContent td + td + td + td {
+	width: 300px
+}
+
+
+a:link {
+  color: black;
+  text-decoration: none ;
+}
+a:focus {
+  color: black;
+}
+a:active {
+  color: black;
+}
 /* When the inputs get focus, do something */
-#card_input, #scoreboard_text{
+#card_input{
   background-color: transparent;
   color: transparent;
   outline: none;
   position: absolute;
   display: block;
   margin: auto;
-  width: 16em;
-  height: 4em;
+  width: 10em;
+  height: 3em;
   left: 0;
   right: 0;
-  top: 40em;
+  top: 59%;
   padding: 0.2em 0.9em;
   box-sizing: border-box;
   border-radius: 1em;
@@ -74,11 +138,19 @@ body {
     outline: none;
     background-color: white;
 }
+#scoreboard_table{
+  position: absolute;
+  display: block;
+  margin: auto;
+  width: 16em;
+  top: 13%;
+  left: 0;
+  right: 0;
+}
 
 
 
-
-#game_mode_card, #game_screen_card, #card, #card2, #memory_card, #looser_card, #winner_card, #highscore_card, .card_container {
+#game_mode_card, #game_screen_card, #card, #card2, #memory_card, #looser_card, #winner_card, #highscore_card, .tableContainer, .card_container {
     width:90%;
     height: 70%;
     display:block;

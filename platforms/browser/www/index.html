@@ -46,8 +46,10 @@
 
           <!-- Choose Level -->
             <div id="level_screen" class="screen">
-              <svg id="game_screen_card" viewBox="0 0 223 324"></svg>
-              <input type="text" id="card_input"class="card_elements" placeholder="Number Of Cards"></input>
+                <svg id="game_screen_card" viewBox="0 0 223 324"></svg>
+                <div class="tableContainer">
+                  <input type="text" id="card_input"class="card_elements" placeholder="Number Of Cards"></input>
+                </div>
             </div>
 
           <!-- END Pop up Choose Level-->
@@ -75,7 +77,51 @@
           <!-- Highscore Screen -->
           <div id="highscore" class="screen">
             <svg id="highscore_card" viewBox="0 0 223 324"></svg>
-              <textarea id="scoreboard_text"class="card_elements"></textarea>
+
+                <div class="tableContainer">
+                <table id="scoreboard_table" class="sortable card_elements scrollTable">
+                <thead class="fixedHeader">
+                	<tr>
+                		<th><a href="#">Rank</a></th>
+                		<th><a href="#">Cards</a></th>
+                		<th><a href="#">Time</a></th>
+                    <th><a href="#">Score</a></th>
+                	</tr>
+                </thead>
+                <tbody class="scrollContent">
+                	<tr>
+                		<td>2</td>
+                		<td>10</td>
+                		<td>270</td>
+                    <td>450</td>
+                	</tr>
+                	<tr>
+                		<td>3</td>
+                		<td>26</td>
+                		<td>120</td>
+                    <td>430</td>
+                	</tr>
+                	<tr>
+                		<td>1</td>
+                		<td>10</td>
+                		<td>95</td>
+                    <td>410</td>
+                	</tr>
+                  <tr>
+                		<td>5</td>
+                		<td>52</td>
+                		<td>1120</td>
+                    <td>390</td>
+                	</tr>
+                	<tr>
+                		<td>4</td>
+                		<td>111</td>
+                		<td>340</td>
+                    <td>370</td>
+                	</tr>
+                </tbody>
+                </table>
+                </div>
           </div>
 
           <!-- END Highscore Screen -->
