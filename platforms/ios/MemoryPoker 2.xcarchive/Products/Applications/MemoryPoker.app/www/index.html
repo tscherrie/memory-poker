@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<!--
+    Licensed to the Apache Software Foundation (ASF) under one
+    or more contributor license agreements.  See the NOTICE file
+    distributed with this work for additional information
+    regarding copyright ownership.  The ASF licenses this file
+    to you under the Apache License, Version 2.0 (the
+    "License"); you may not use this file except in compliance
+    with the License.  You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing,
+    software distributed under the License is distributed on an
+    "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+     KIND, either express or implied.  See the License for the
+    specific language governing permissions and limitations
+    under the License.
+-->
+<html>
+    <head>
+        <!--
+        Customize this policy to fit your own app's needs. For more guidance, see:
+            https://github.com/apache/cordova-plugin-whitelist/blob/master/README.md#content-security-policy
+        Some notes:
+            * gap: is required only on iOS (when using UIWebView) and is needed for JS->native communication
+            * https://ssl.gstatic.com is required only on Android and is needed for TalkBack to function properly
+            * Disables use of inline scripts in order to mitigate risk of XSS vulnerabilities. To change this:
+                * Enable inline JS: add 'unsafe-inline' to default-src
+        -->
+        <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;"> -->
+        <meta charset="utf-8" />
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover">
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+        <title>Memory Poker</title>
+    </head>
+    <body>
+        <div class="app">
+          <!-- Pop up Choose Single/Multi-Player -->
+          <div class="form-popup" id="mode_screen">
+            <form class="form-container">
+            	<button type="button" class="btn" id="singleplayer">Singleplayer</button>
+              <button type="button" class="btn" id="multiplayer">Multiplayer</button>
+              <button type="button" class="btn cancel" id="howto">How To</button>
+            </form>
+          </div>
+          <!-- END Pop up Choose Single/Multi-Player-->
+
+          <!-- Pop up Choose Level -->
+          <div class="form-popup" id="level_screen">
+            <form class="form-container">
+            	<button type="button" class="btn" value="10" id="button_10">10 Cards</button>
+              <button type="button" class="btn" value="26" id="button_26">26 Cards</button>
+              <button type="button" class="btn" value="52" id="button_52">Full Deck</button>
+              <input type="number" id="card_input" placeholder="Number of Cards" name="hcore" value=100>
+<!-- TODO change submit to js button that calls input. How many decks? decks * 52 -->
+              <button type="button" class="btn cancel" id="cards_hardcore">Hardcore Mode</button>
+            </form>
+          </div>
+          <!-- END Pop up Choose Level-->
+          <!-- Game Screen (card view)-->
+          <div id="game_part_one">
+            <img id="card" src="./img/cards-svg/part_one.svg">
+          </div>
+          <div id="between_screen">
+            <img id="card2" src="./img/cards-svg/part_two.svg">
+          </div>
+          <div id="game_part_two">
+            <svg id="memory_card" viewBox="0 0 223 324"></svg>
+          </div>
+          <!-- END Game Screen (card view) -->
+          <!-- Game Over Screen -->
+          <div id="looser">
+            <img id="looser_card" src="./img/cards-svg/looser.svg">
+          </div>
+          <!-- END Game Over Screen -->
+          <!-- Hurray Screen -->
+          <div id="winner">
+            <img id="winner_card" src="./img/cards-svg/winner.svg">
+          </div>
+          <!-- END Hurray Screen -->
+          <!-- Highscore Screen -->
+          <div class="form-popup" id="highscore">
+            <table id="scoreboard" class="table striped">
+              <thead>
+                <tr>
+                  <th>Rank</th>
+                  <th>Username</th>
+                  <th>Score</th>
+                </tr>
+              </thead>
+              <tbody id="scoreboard_tbody">
+
+              </tbody>
+            </table>
+            <form class="form-container">
+            	<button type="button" class="btn" id="newgame">New Game</button>
+            </form>
+          </div>
+          <!-- END Highscore Screen -->
+
+        </div>
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.2.0/socket.io.js"></script>
+        <script type="text/javascript" src="js/snap.svg-min.js"></script>
+        <script type="text/javascript" src="js/sorttable.js"></script>
+      <!--  <script type="text/javascript" src="js/single/serving.js"></script>  Maybe used later if not all methods in app.js -->
+        <script type="text/javascript" src="js/single/index.js"></script>
+        <script type="text/javascript" src="js/single/app.js"></script>
+        <!--<script type="text/javascript" src="js/multi/app.js"></script>-->
+
+
+    </body>
+</html>

@@ -1,0 +1,11 @@
+{
+  "background_color": "#FFF",
+  "display": "standalone",
+  "name": "MemoryPoker",
+  "short_name": "MemoryPoker",
+  "version": "poker.memory",
+  "description": "become a memory champion",
+  "author": "MemoryPoker Team",
+  "icons": [],
+  "start_url": "index.html"
+}

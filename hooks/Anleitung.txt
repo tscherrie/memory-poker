@@ -1,0 +1,1 @@
+Kopiere cordova-icon.sh in den after prepare Ordner im hook Ordner
