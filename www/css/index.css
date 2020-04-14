@@ -134,7 +134,7 @@ input[type=text] {
 
 
 
-#game_mode_card, #game_screen_card, #card, #card2, #memory_card, #looser_card, #winner_card, .card_container {
+#game_mode_card, #game_screen_card, #card, #card2, #memory_card, #looser_card, #winner_card, #highscore_card, .card_container {
     width:90%;
     height: 70%;
     display:block;
