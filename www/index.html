@@ -40,14 +40,18 @@
         <div class="app">
           <!-- Choose Single/Multi-Player -->
           <div id="mode_screen">
-            <svg id="game_mode_card" viewBox="0 0 223 324">
+            <svg id="game_mode_card" viewBox="0 0 223 324"><svg>
           </div>
           <!-- END Pop up Choose Single/Multi-Player-->
 
           <!-- Choose Level -->
-          <div id="level_screen" class="screen">
-            <svg id="game_screen_card" viewBox="0 0 223 324">
-          </div>
+            <div id="level_screen" class="screen">
+              <svg id="game_screen_card" viewBox="0 0 223 324"></svg>
+              <form class="card_container">
+                <input type="text" id="card_input"class="card_elements" placeholder="Number Of Cards" value="100"></input>
+              </form>
+            </div>
+
           <!-- END Pop up Choose Level-->
           <!-- Game Screen (card view)-->
           <div id="game_part_one" class="screen">
@@ -71,7 +75,7 @@
           </div>
           <!-- END Hurray Screen -->
           <!-- Highscore Screen -->
-          <div class="form-popup" id="highscore" class="screen">
+          <div class="form-popup" id="highscore">
             <table id="scoreboard" class="table striped">
               <thead>
                 <tr>
