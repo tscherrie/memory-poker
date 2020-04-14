@@ -82,9 +82,29 @@ input[type=text] {
 }
 
 /* When the inputs get focus, do something */
-input[type=text]:focus {
-  background-color: #ddd;
+#card_input {
+  background-color: transparent;
+  color: transparent;
   outline: none;
+  position: absolute;
+  display: block;
+  margin: auto;
+  width: 15em;
+  height: 3em;
+  left: 0;
+  right: 0;
+  top: 28em;
+  padding: 0.2em 0.9em;
+  box-sizing: border-box;
+  border-radius: 1em;
+  -webkit-appearance: none;
+    -moz-appearance: none;
+  text-align: center;
+  text-shadow: 0 0 0 black;
+}
+#card_input:focus{
+    outline: none;
+    background-color: white;
 }
 
 /* Set a style for the submit/login button */
