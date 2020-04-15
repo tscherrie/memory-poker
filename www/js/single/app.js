@@ -32,7 +32,7 @@ function choose_level_singleplayer() {
     easy.node.onclick = function () {
       // Memory number is use in part two of the game to know how many cards to remember.
       var num = 10;
-      num = 2;                          // FOR TESTING FOR TESTING FOR TESTING FOR TESTING FOR TESTING FOR TESTING FOR TESTING FOR TESTING FOR TESTING
+      //num = 2;                          // FOR TESTING FOR TESTING FOR TESTING FOR TESTING FOR TESTING FOR TESTING FOR TESTING FOR TESTING FOR TESTING
 
       number_of_cards_temp = num;
       number_of_cards = num;
@@ -259,7 +259,8 @@ function highscore () {
     // the group of suits and ranks has an id in the svg file, defined with INKSCAPE
     var solo = card.select("#new_game_btn");
     solo.node.onclick = function () {
-      window.location.reload(true);
+      restartGame();
+
     };
     // snaps grabs the svg element from dom and appends the following code to it
     snapw = Snap("#highscore_card");
@@ -277,6 +278,16 @@ function highscore () {
 
 
 // Helper functions
+
+
+function restartGame() {
+  // Show splash screen (useful if your app takes time to load)
+  navigator.splashscreen.show();
+  // Reload original app url (ie your index.html file)
+  window.location = initialHref;
+  //window.location.reload(true);
+};
+
 
 function scoreboard_result() {
   // Get all successfully guessed cards

@@ -38,67 +38,71 @@
     </head>
     <body>
         <div class="app">
-          <!-- Pop up Choose Single/Multi-Player -->
-          <div class="form-popup" id="mode_screen">
-            <form class="form-container">
-            	<button type="button" class="btn" id="singleplayer">Singleplayer</button>
-              <button type="button" class="btn" id="multiplayer">Multiplayer</button>
-              <button type="button" class="btn cancel" id="howto">How To</button>
-            </form>
+          <!-- Choose Single/Multi-Player -->
+          <div id="mode_screen">
+            <svg id="game_mode_card" viewBox="0 0 223 324"><svg>
           </div>
           <!-- END Pop up Choose Single/Multi-Player-->
 
-          <!-- Pop up Choose Level -->
-          <div class="form-popup" id="level_screen">
-            <form class="form-container">
-            	<button type="button" class="btn" value="10" id="button_10">10 Cards</button>
-              <button type="button" class="btn" value="26" id="button_26">26 Cards</button>
-              <button type="button" class="btn" value="52" id="button_52">Full Deck</button>
-              <input type="number" id="card_input" placeholder="Number of Cards" name="hcore" value=100>
-<!-- TODO change submit to js button that calls input. How many decks? decks * 52 -->
-              <button type="button" class="btn cancel" id="cards_hardcore">Hardcore Mode</button>
-            </form>
-          </div>
+          <!-- Choose Level -->
+            <div id="level_screen" class="screen">
+                <svg id="game_screen_card" viewBox="0 0 223 324"></svg>
+                <div class="cardContainer">
+                  <input type="text" id="card_input"class="card_elements" placeholder="Cards"></input>
+                </div>
+            </div>
+
           <!-- END Pop up Choose Level-->
           <!-- Game Screen (card view)-->
-          <div id="game_part_one">
+          <div id="game_part_one" class="screen">
             <img id="card" src="./img/cards-svg/part_one.svg">
           </div>
-          <div id="between_screen">
+          <div id="between_screen" class="screen">
             <img id="card2" src="./img/cards-svg/part_two.svg">
           </div>
-          <div id="game_part_two">
+          <div id="game_part_two" class="screen">
             <svg id="memory_card" viewBox="0 0 223 324"></svg>
           </div>
           <!-- END Game Screen (card view) -->
           <!-- Game Over Screen -->
-          <div id="looser">
+          <div id="looser" class="screen">
             <img id="looser_card" src="./img/cards-svg/looser.svg">
           </div>
           <!-- END Game Over Screen -->
           <!-- Hurray Screen -->
-          <div id="winner">
+          <div id="winner" class="screen">
             <img id="winner_card" src="./img/cards-svg/winner.svg">
           </div>
           <!-- END Hurray Screen -->
           <!-- Highscore Screen -->
-          <div class="form-popup" id="highscore">
-            <table id="scoreboard" class="table striped">
-              <thead>
-                <tr>
-                  <th>Rank</th>
-                  <th>Username</th>
-                  <th>Score</th>
-                </tr>
-              </thead>
-              <tbody id="scoreboard_tbody">
+          <div id="highscore" class="screen">
+            <svg id="highscore_card" viewBox="0 0 223 324"></svg>
 
-              </tbody>
-            </table>
-            <form class="form-container">
-            	<button type="button" class="btn" id="newgame">New Game</button>
-            </form>
+                <div class="tableContainer">
+                <table id="scoreboard_table" class="sortable card_elements scrollTable">
+                <thead class="fixedHeader">
+                	<tr>
+                		<th><a href="#">Cards</a></th>
+                		<th><a href="#">Time</a></th>
+                    <th><a href="#">Score</a></th>
+                	</tr>
+                </thead>
+                <tbody class="scrollContent">
+                  <tr>
+                		<td>1</td>
+                		<td>2</td>
+                    <td>3</td>
+                	</tr>
+                  <tr>
+                		<td>1</td>
+                		<td>2</td>
+                    <td>1000</td>
+                	</tr>
+                </tbody>
+                </table>
+                </div>
           </div>
+
           <!-- END Highscore Screen -->
 
         </div>

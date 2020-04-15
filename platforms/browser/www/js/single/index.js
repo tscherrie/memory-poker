@@ -57,6 +57,8 @@ var chosen_card;
 var startTime = null;
 var endTime;
 var time_seconds;
+// keep startup url (in case your app is an SPA with html5 url routing) (to restart App)
+var initialHref = window.location.href;
 
 //Number of cards in a cards deck
 var deck_size;

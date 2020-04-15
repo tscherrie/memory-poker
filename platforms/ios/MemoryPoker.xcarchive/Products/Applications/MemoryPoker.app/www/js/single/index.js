@@ -15,23 +15,23 @@ var app = {
       },
     onDeviceReady: function() {
         this.receivedEvent('deviceready');
-        open_screen("mode_screen");
+        start_new_game();
 
     },
     // onDevicePause: function() {
     //     this.receivedEvent('pause');
-    //     open_screen("mode_screen");
+    //     start_new_game();
     // },
     //
     // onDeviceResume: function() {
     //     this.receivedEvent('resume');
-    //     open_screen("mode_screen");
+    //     start_new_game();
     // },
     onBackButton: function() {
         // By default, the back button behavior will kill the WebView in Android.
         // We still do it, for testing purposes, but also log the event.
         this.receivedEvent('backbutton');
-        open_screen("mode_screen");
+        start_new_game();
         //navigator.app.exitApp();
     },
     receivedEvent: function(id) {
@@ -49,12 +49,14 @@ app.initialize();
 // MEMORY POKER FIRST SCREEN - SINGLE/MULTIPLAYER //
 
 // Store global vars before each game
-var memory_number;
+var number_of_cards_temp;
+var number_of_cards;
 var chosen_suit;
 var chosen_rank;
 var chosen_card;
 var startTime = null;
 var endTime;
+var time_seconds;
 
 //Number of cards in a cards deck
 var deck_size;
@@ -74,26 +76,40 @@ function close_screen(id) {
 
 
 
+function start_new_game() {
+  // Use SNAP library doc: http://snapsvg.io/docs/
+  // load the remember card
+  Snap.load("./img/cards-svg/game_mode.svg" , function(card){
+    // the group of suits and ranks has an id in the svg file, defined with INKSCAPE
+    var solo = card.select("#singleplayer_btn");
+    var multi = card.select("#multiplayer_btn");
+    var howto = card.select("#howto_btn");
+    var options = card.select("#options_btn");
 
 
-  // Singleplayer Screen
-  document.getElementById("singleplayer").addEventListener("click", function(){
+    solo.node.onclick = function () {
       close_screen("mode_screen");
       open_screen("level_screen");
-      console.log('Hans2');
-      console.log('Hans3');
       choose_level_singleplayer();
-    });
-
-  // Multiplayer Screen
-  document.getElementById("multiplayer").addEventListener("click", function(){
+    };
+    multi.node.onclick = function () {
       alert('Coming soon!');
       // close_screen("mode_screen");
       // open_screen("level_screen");
       // choose_level_multiplayer();
-    });
+    };
+    howto.node.onclick = function () {
+      // close_screen("mode_screen");
+      alert('Coming soon!');
+    };
+    options.node.onclick = function () {
+      // close_screen("mode_screen");
+      alert('Coming soon!');
+    };
+    // snaps grabs the svg element from dom and appends the following code to it
+    snapx = Snap("#game_mode_card");
+    // TODO don't append each time
+    snapx.append(card);
 
-  // Howto Tutorial Screen
-  document.getElementById("howto").addEventListener("click", function(){
-    alert('Coming soon!');
   });
+};

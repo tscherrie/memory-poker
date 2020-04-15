@@ -102,11 +102,11 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		vStJ+39D6bfnaIyHDFmaa98JP7Q=
+		gB6tW1dGfYHYap85DU5kTnYmY4M=
 		</data>
 		<key>CDVLaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<data>
-		z0IH8nddjpMdndu55CCbyVE5T2M=
+		ORuy9ngN6lhckQOSkt5PUiVSlhY=
 		</data>
 		<key>CDVLaunchScreen.storyboardc/Info.plist</key>
 		<data>
@@ -114,11 +114,11 @@
 		</data>
 		<key>CDVLaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib</key>
 		<data>
-		Pvofw/f81yhGfH9/T6YeuSkFAHA=
+		R1hSvJ47FlmOSArEljKVIgNiTGM=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		35LX4iRBCnLgtz51oL30lleadOM=
+		MUS1lL6HZpA4n4pQL5qIEMdnC+A=
 		</data>
 		<key>LaunchImage-1100-Landscape-2436h@3x.png</key>
 		<data>
@@ -194,7 +194,7 @@
 		</data>
 		<key>MainViewController.nib</key>
 		<data>
-		kSDv9MI8WuzSFvBA6EI63N39jzY=
+		UDfYry0Lf3/WwkemhKqpUw0Elx0=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -234,7 +234,27 @@
 		</data>
 		<key>www/css/index.css</key>
 		<data>
-		fXdutFTZCG/mbWroqjXDrRyKljg=
+		ZUFEJ/RQRxiGFJ/e5LJMNCPhtM4=
+		</data>
+		<key>www/db/highscore.json</key>
+		<data>
+		TPvQkEOnv1j/Ubg9ALU9xPvy31g=
+		</data>
+		<key>www/img/cards-svg/full-deck.svg</key>
+		<data>
+		oG7/j/J6WQJGLxPtFyweQpAQCvs=
+		</data>
+		<key>www/img/cards-svg/game_level.svg</key>
+		<data>
+		6DxFtajZoAmlFyu7rHyatYd6MbM=
+		</data>
+		<key>www/img/cards-svg/game_mode.svg</key>
+		<data>
+		40hWdUjJ3fkQQrRIAvlFgFJ5ZTk=
+		</data>
+		<key>www/img/cards-svg/highscore.svg</key>
+		<data>
+		wZeGTr1dIL02TDLg/773AhBq+CQ=
 		</data>
 		<key>www/img/cards-svg/looser.svg</key>
 		<data>
@@ -242,7 +262,7 @@
 		</data>
 		<key>www/img/cards-svg/part_one.svg</key>
 		<data>
-		kwvLhL4gJIwM5/27Jujv4ElHIC8=
+		ZroQJIa2eE+iP9hvlj1yzdQesfY=
 		</data>
 		<key>www/img/cards-svg/part_two.svg</key>
 		<data>
@@ -464,101 +484,337 @@
 		<data>
 		S23eQYLI8uoWeYy5FtHWj+qewR4=
 		</data>
-		<key>www/img/cards-svg2/ace_of_spades2.svg</key>
+		<key>www/img/cards-svg_alt/full-deck.svg</key>
+		<data>
+		oG7/j/J6WQJGLxPtFyweQpAQCvs=
+		</data>
+		<key>www/img/cards-svg_alt/looser.svg</key>
+		<data>
+		P50OY2XPcXMtvddrsMW6I/WIlU0=
+		</data>
+		<key>www/img/cards-svg_alt/part_one.svg</key>
+		<data>
+		ZroQJIa2eE+iP9hvlj1yzdQesfY=
+		</data>
+		<key>www/img/cards-svg_alt/part_two.svg</key>
+		<data>
+		pXIzt4KqPFucNBAVCjlupfZC5ts=
+		</data>
+		<key>www/img/cards-svg_alt/remember.svg</key>
+		<data>
+		QoCVCYL6PGOgZuV1HxeYyhx6w1M=
+		</data>
+		<key>www/img/cards-svg_alt/specials/ace_of_spades2.svg</key>
 		<data>
 		7vQDNPhgrRpI3d/0Y03IqlEgglo=
 		</data>
-		<key>www/img/cards-svg2/black_joker.svg</key>
+		<key>www/img/cards-svg_alt/specials/black_joker.svg</key>
 		<data>
 		UBn4JSS3HdixJlcDRc/iNpFLfDU=
 		</data>
-		<key>www/img/cards-svg2/jack_of_clubs2.svg</key>
+		<key>www/img/cards-svg_alt/specials/jack_of_clubs2.svg</key>
 		<data>
 		a1OXwoZx36IISx9XK88boIpblbM=
 		</data>
-		<key>www/img/cards-svg2/jack_of_diamonds2.svg</key>
+		<key>www/img/cards-svg_alt/specials/jack_of_diamonds2.svg</key>
 		<data>
 		v4rNfwxtOGEWjErH2+KhCS4O88g=
 		</data>
-		<key>www/img/cards-svg2/jack_of_hearts2.svg</key>
+		<key>www/img/cards-svg_alt/specials/jack_of_hearts2.svg</key>
 		<data>
 		IrkAx/9sBo+APJJ0dZLKavIju6E=
 		</data>
-		<key>www/img/cards-svg2/jack_of_spades2.svg</key>
+		<key>www/img/cards-svg_alt/specials/jack_of_spades2.svg</key>
 		<data>
 		I/wibt23RqHeznillIDA8zieab0=
 		</data>
-		<key>www/img/cards-svg2/king_of_clubs2.svg</key>
+		<key>www/img/cards-svg_alt/specials/king_of_clubs2.svg</key>
 		<data>
 		sPqBXkve/6x2p5ZdGRVEyGRJE7Q=
 		</data>
-		<key>www/img/cards-svg2/king_of_diamonds2.svg</key>
+		<key>www/img/cards-svg_alt/specials/king_of_diamonds2.svg</key>
 		<data>
 		T1MgDby0/IZVJDHJadHRxP28WXs=
 		</data>
-		<key>www/img/cards-svg2/king_of_hearts2.svg</key>
+		<key>www/img/cards-svg_alt/specials/king_of_hearts2.svg</key>
 		<data>
 		zNXSWrwZYFeSCs19DLEGKkJoTYA=
 		</data>
-		<key>www/img/cards-svg2/king_of_spades2.svg</key>
+		<key>www/img/cards-svg_alt/specials/king_of_spades2.svg</key>
 		<data>
 		oRtRri4tDWBrLJhpRpUcOh9c3yA=
 		</data>
-		<key>www/img/cards-svg2/queen_of_clubs2.svg</key>
+		<key>www/img/cards-svg_alt/specials/queen_of_clubs2.svg</key>
 		<data>
 		KRC4ta+8i0dwJzFgyJYCiPytQTI=
 		</data>
-		<key>www/img/cards-svg2/queen_of_diamonds2.svg</key>
+		<key>www/img/cards-svg_alt/specials/queen_of_diamonds2.svg</key>
 		<data>
 		WKcCCCwXN5AtCnZr7nTbBk/hsEw=
 		</data>
-		<key>www/img/cards-svg2/queen_of_hearts2.svg</key>
+		<key>www/img/cards-svg_alt/specials/queen_of_hearts2.svg</key>
 		<data>
 		hyNzwV059NbLNwl0QgX2sF+ZuP8=
 		</data>
-		<key>www/img/cards-svg2/queen_of_hearts2.svg.2020_04_09_12_11_33.5.svg</key>
+		<key>www/img/cards-svg_alt/specials/queen_of_hearts2.svg.2020_04_09_12_11_33.5.svg</key>
 		<data>
 		76CTaujE5E/VQyiqyJztNWJi2V8=
 		</data>
-		<key>www/img/cards-svg2/queen_of_spades2.svg</key>
+		<key>www/img/cards-svg_alt/specials/queen_of_spades2.svg</key>
 		<data>
 		xHExBucUMOqy1G+xTGYkPTYHPNs=
 		</data>
-		<key>www/img/cards-svg2/red_joker.svg</key>
+		<key>www/img/cards-svg_alt/specials/red_joker.svg</key>
 		<data>
 		6Xo1fAFzTPw0TpB+ay0MVe/i7GQ=
 		</data>
-		<key>www/img/cards-svg2/remember.svg</key>
+		<key>www/img/cards-svg_alt/specials/remember.svg</key>
 		<data>
 		Q6GG2pFVjWFGIbpFy0NFmO54stc=
 		</data>
-		<key>www/img/cards-svg2/remember.svg.2020_04_09_12_11_33.0.svg</key>
+		<key>www/img/cards-svg_alt/specials/remember.svg.2020_04_09_12_11_33.0.svg</key>
 		<data>
 		rJ3OqmsRhwWA8enl8kOEPiY0dxk=
 		</data>
-		<key>www/img/cards-svg2/remember3.svg</key>
+		<key>www/img/cards-svg_alt/specials/remember3.svg</key>
 		<data>
 		pRO88AT9O5la0WzwBeTOg5kTBh8=
 		</data>
-		<key>www/img/cards-svg2/remember_orig.svg</key>
+		<key>www/img/cards-svg_alt/specials/remember_orig.svg</key>
 		<data>
 		5PL1MENinxEHFA8jwIWXVhGfTRk=
 		</data>
-		<key>www/img/cards-svg2/remember_test.svg</key>
+		<key>www/img/cards-svg_alt/specials/remember_test.svg</key>
 		<data>
 		IFWdprJKOlrhJhLtXDaSBd31+gc=
 		</data>
-		<key>www/img/full-deck.svg</key>
+		<key>www/img/cards-svg_alt/standard_deck/ace_of_clubs.svg</key>
 		<data>
-		j7iAqZq1SrMSdEfJQEwV2QbdICU=
+		Sn6G3HWTWAKzlLDUO7InUfNm8Hw=
+		</data>
+		<key>www/img/cards-svg_alt/standard_deck/ace_of_diamonds.svg</key>
+		<data>
+		sMPlI0xFIu5z5l+MZIIhysyMfCE=
+		</data>
+		<key>www/img/cards-svg_alt/standard_deck/ace_of_hearts.svg</key>
+		<data>
+		iYaVuz+16jzEH/oFRUPFgH0Da1U=
+		</data>
+		<key>www/img/cards-svg_alt/standard_deck/ace_of_spades.svg</key>
+		<data>
+		rhUeRANqtQhoTcOH0peaLdrvR3c=
+		</data>
+		<key>www/img/cards-svg_alt/standard_deck/eight_of_clubs.svg</key>
+		<data>
+		41opQGdu5yPgLKe8CG62PlgFLFI=
+		</data>
+		<key>www/img/cards-svg_alt/standard_deck/eight_of_diamonds.svg</key>
+		<data>
+		/NuB2oD4ozzrwps5Zxr7GkEowDQ=
+		</data>
+		<key>www/img/cards-svg_alt/standard_deck/eight_of_hearts.svg</key>
+		<data>
+		CKa74DImOXNVUBnO55LjJHP4W8k=
+		</data>
+		<key>www/img/cards-svg_alt/standard_deck/eight_of_spades.svg</key>
+		<data>
+		opV2rPUzwlQyxiLBWMmerLyEX1o=
+		</data>
+		<key>www/img/cards-svg_alt/standard_deck/five_of_clubs.svg</key>
+		<data>
+		nC5gvymhtetbYzFux0HUF+1gycg=
+		</data>
+		<key>www/img/cards-svg_alt/standard_deck/five_of_diamonds.svg</key>
+		<data>
+		jFO8jwq2UTPusJC++UvN29hdGmE=
+		</data>
+		<key>www/img/cards-svg_alt/standard_deck/five_of_hearts.svg</key>
+		<data>
+		++cm4IbzKTwk8z4vv5uPdO/wMC0=
+		</data>
+		<key>www/img/cards-svg_alt/standard_deck/five_of_spades.svg</key>
+		<data>
+		b+jcmBcgoQax/n2XBioeDaYhfIA=
+		</data>
+		<key>www/img/cards-svg_alt/standard_deck/four_of_clubs.svg</key>
+		<data>
+		1SMbiLv+DSNcmc8dQh8vKCHK0mk=
+		</data>
+		<key>www/img/cards-svg_alt/standard_deck/four_of_diamonds.svg</key>
+		<data>
+		MHaQz9abBIZvwcTZ6MuOMaBK3LM=
+		</data>
+		<key>www/img/cards-svg_alt/standard_deck/four_of_hearts.svg</key>
+		<data>
+		GcZpsUw8k4buaZ9rp6sHaw9RG+I=
+		</data>
+		<key>www/img/cards-svg_alt/standard_deck/four_of_spades.svg</key>
+		<data>
+		VGyfMfELr91OCbVAzKDY7yWVkE0=
+		</data>
+		<key>www/img/cards-svg_alt/standard_deck/jack_of_clubs.svg</key>
+		<data>
+		yQ1TuGWqctpGlJb9ZrqADuAqegM=
+		</data>
+		<key>www/img/cards-svg_alt/standard_deck/jack_of_diamonds.svg</key>
+		<data>
+		7auq05vwQvjEOpjdBGgexKFGlUw=
+		</data>
+		<key>www/img/cards-svg_alt/standard_deck/jack_of_hearts.svg</key>
+		<data>
+		9/PgldTWX4VRUd2TC8yno7RZvw8=
+		</data>
+		<key>www/img/cards-svg_alt/standard_deck/jack_of_spades.svg</key>
+		<data>
+		J0Ie5VGMI1l4SieF+YzQb09SKhg=
+		</data>
+		<key>www/img/cards-svg_alt/standard_deck/king_of_clubs.svg</key>
+		<data>
+		qX5yNk0Cc81DAFVw8mCQbJuqbdU=
+		</data>
+		<key>www/img/cards-svg_alt/standard_deck/king_of_diamonds.svg</key>
+		<data>
+		jKzNFsHbE/Yw0VkwhSFcroHS+4o=
+		</data>
+		<key>www/img/cards-svg_alt/standard_deck/king_of_hearts.svg</key>
+		<data>
+		21cXyd9LdCBjJTAOHo9di/apb8E=
+		</data>
+		<key>www/img/cards-svg_alt/standard_deck/king_of_spades.svg</key>
+		<data>
+		lffTT1qud9wtvSdGL7Vegs0r5Jo=
+		</data>
+		<key>www/img/cards-svg_alt/standard_deck/nine_of_clubs.svg</key>
+		<data>
+		E8tlKwu9mZbGc7W7rNqxvWsQilM=
+		</data>
+		<key>www/img/cards-svg_alt/standard_deck/nine_of_diamonds.svg</key>
+		<data>
+		8QGo+3wE85DmAqk/VoTBpVm79J4=
+		</data>
+		<key>www/img/cards-svg_alt/standard_deck/nine_of_hearts.svg</key>
+		<data>
+		4FCZ0gkTLCPLE9ji1muCsP6NYY4=
+		</data>
+		<key>www/img/cards-svg_alt/standard_deck/nine_of_spades.svg</key>
+		<data>
+		0tKDh8uA3md3BUDXUHIu8wk+2m4=
+		</data>
+		<key>www/img/cards-svg_alt/standard_deck/queen_of_clubs.svg</key>
+		<data>
+		H1BLsCSuuSKcwTof3q4gwJbkT+Y=
+		</data>
+		<key>www/img/cards-svg_alt/standard_deck/queen_of_diamonds.svg</key>
+		<data>
+		1MYkQuWwW3fKvsEWgxpOqdye1UE=
+		</data>
+		<key>www/img/cards-svg_alt/standard_deck/queen_of_hearts.svg</key>
+		<data>
+		criFRBi9pibMV1tPpZpnRAnlWnY=
+		</data>
+		<key>www/img/cards-svg_alt/standard_deck/queen_of_spades.svg</key>
+		<data>
+		J5ewoaapcJX8Z84VG6QW47E0lf8=
+		</data>
+		<key>www/img/cards-svg_alt/standard_deck/seven_of_clubs.svg</key>
+		<data>
+		QQ1JS1+mNVXvuYi4Vm/ag8d83GU=
+		</data>
+		<key>www/img/cards-svg_alt/standard_deck/seven_of_diamonds.svg</key>
+		<data>
+		XjmysfFyI9FgUovR4VhcaUnUuhs=
+		</data>
+		<key>www/img/cards-svg_alt/standard_deck/seven_of_hearts.svg</key>
+		<data>
+		BWB24sFOCfazsVCUI+8KAYkDFD8=
+		</data>
+		<key>www/img/cards-svg_alt/standard_deck/seven_of_spades.svg</key>
+		<data>
+		AGhvWOxCMzvcNl24pIGz4mwKoQ4=
+		</data>
+		<key>www/img/cards-svg_alt/standard_deck/six_of_clubs.svg</key>
+		<data>
+		VSkEqjGbEYAA3/Fwc7b86gGq/4w=
+		</data>
+		<key>www/img/cards-svg_alt/standard_deck/six_of_diamonds.svg</key>
+		<data>
+		TXSDz8zQoP4Qe5amiJYdA0TOFsw=
+		</data>
+		<key>www/img/cards-svg_alt/standard_deck/six_of_hearts.svg</key>
+		<data>
+		wf7VnY5LpB8e1nvctnaMS3GsVwg=
+		</data>
+		<key>www/img/cards-svg_alt/standard_deck/six_of_spades.svg</key>
+		<data>
+		OOgE6lYrNZJgwtey3ei0dq80KfQ=
+		</data>
+		<key>www/img/cards-svg_alt/standard_deck/ten_of_clubs.svg</key>
+		<data>
+		je04AHoHrS8YplVOkjMHM2SqbWs=
+		</data>
+		<key>www/img/cards-svg_alt/standard_deck/ten_of_diamonds.svg</key>
+		<data>
+		xR78qR82zbgHBCkcNKOzUg6+oE8=
+		</data>
+		<key>www/img/cards-svg_alt/standard_deck/ten_of_hearts.svg</key>
+		<data>
+		BKascnJvLX0tbICpeEw4JSEZ2dQ=
+		</data>
+		<key>www/img/cards-svg_alt/standard_deck/ten_of_spades.svg</key>
+		<data>
+		iElwR7l8/XW+vepMpiLcBsjy6b8=
+		</data>
+		<key>www/img/cards-svg_alt/standard_deck/three_of_clubs.svg</key>
+		<data>
+		5CgXe3AXN4+t0VoCgJFUs56611I=
+		</data>
+		<key>www/img/cards-svg_alt/standard_deck/three_of_diamonds.svg</key>
+		<data>
+		7rDKOQpMB7GVK6kHGyUl5GSXmGI=
+		</data>
+		<key>www/img/cards-svg_alt/standard_deck/three_of_hearts.svg</key>
+		<data>
+		Iq1KQdNBR+pcdK8CYlaZPbM9eAU=
+		</data>
+		<key>www/img/cards-svg_alt/standard_deck/three_of_spades.svg</key>
+		<data>
+		3HO0fxNC/tZYdN9UWtKJGvFTWVs=
+		</data>
+		<key>www/img/cards-svg_alt/standard_deck/two_of_clubs.svg</key>
+		<data>
+		CG7+WFe4beE5kgCe9lpmXl49RTs=
+		</data>
+		<key>www/img/cards-svg_alt/standard_deck/two_of_diamonds.svg</key>
+		<data>
+		BdnWVSakqxxJda+6Wo45fpvhzc0=
+		</data>
+		<key>www/img/cards-svg_alt/standard_deck/two_of_hearts.svg</key>
+		<data>
+		TgktjFDTRayjImuNO3sxAslFpLw=
+		</data>
+		<key>www/img/cards-svg_alt/standard_deck/two_of_spades.svg</key>
+		<data>
+		EIh/i7oGJs4hr3ii1jijuLlM/60=
+		</data>
+		<key>www/img/cards-svg_alt/winner.svg</key>
+		<data>
+		S23eQYLI8uoWeYy5FtHWj+qewR4=
 		</data>
 		<key>www/img/logo.png</key>
 		<data>
 		3vq1pRdKiH2sn1vVdyEMRNBlHZI=
 		</data>
+		<key>www/img/logo.svg</key>
+		<data>
+		fDfLj9rjvInKj9CvitsXX8sDx/4=
+		</data>
+		<key>www/img/test.svg</key>
+		<data>
+		aTCPoXA7dmUqrCHWtBqnFPz0Te4=
+		</data>
 		<key>www/index.html</key>
 		<data>
-		YIL7Lr+9CylsxBYmLw5QIUCMJzs=
+		rqVB3zC4/vK/gTXOxzsmhuxfwxg=
 		</data>
 		<key>www/js/index.js</key>
 		<data>
@@ -586,11 +842,11 @@
 		</data>
 		<key>www/js/single/app.js</key>
 		<data>
-		hUywNwGcwsCCUWLczB58tgJJZDg=
+		8u8IMxUsZLSmfj9jqF6FTvHlbKA=
 		</data>
 		<key>www/js/single/index.js</key>
 		<data>
-		qGtoHgFLhGIUuwX2lvj9wi2XV6c=
+		SLJKw6+9bAesWkQIJJtOqndU7zw=
 		</data>
 		<key>www/js/single/serving.js</key>
 		<data>
@@ -602,7 +858,7 @@
 		</data>
 		<key>www/js/sorttable.js</key>
 		<data>
-		nVxpT7cSsq9xQNVgdGLk9fI01jw=
+		PB/5p6f/Djw5OZSbQouNkB8JiIU=
 		</data>
 		<key>www/test-index.html</key>
 		<data>
@@ -879,22 +1135,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			vStJ+39D6bfnaIyHDFmaa98JP7Q=
+			gB6tW1dGfYHYap85DU5kTnYmY4M=
 			</data>
 			<key>hash2</key>
 			<data>
-			4jM+roRrJnJ2zhudYIaKeUokKHlVRSNOBpU1wAMK4wY=
+			ZBVGsaCj3wS/VssTExB/LlC7R3Qhl9lIxPBTPZysAtw=
 			</data>
 		</dict>
 		<key>CDVLaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			z0IH8nddjpMdndu55CCbyVE5T2M=
+			ORuy9ngN6lhckQOSkt5PUiVSlhY=
 			</data>
 			<key>hash2</key>
 			<data>
-			V7tYm5hRqyQq6H7mmbXh+FkQp/v14AZuGrMFYjSuTkU=
+			upEPP7xo3oP1VkKzwGBwZPokWuOEJwEsTnd8+4vKBjA=
 			</data>
 		</dict>
 		<key>CDVLaunchScreen.storyboardc/Info.plist</key>
@@ -912,11 +1168,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Pvofw/f81yhGfH9/T6YeuSkFAHA=
+			R1hSvJ47FlmOSArEljKVIgNiTGM=
 			</data>
 			<key>hash2</key>
 			<data>
-			RklzmngOHFDGKSxBbiqlfaznf2MWwSFBptplHO10RFM=
+			oDr4KxlEJVLKKZBwH35lcvqk2XO2aTdsDrrXRiEukX8=
 			</data>
 		</dict>
 		<key>LaunchImage-1100-Landscape-2436h@3x.png</key>
@@ -1121,11 +1377,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			kSDv9MI8WuzSFvBA6EI63N39jzY=
+			UDfYry0Lf3/WwkemhKqpUw0Elx0=
 			</data>
 			<key>hash2</key>
 			<data>
-			pRUPpKujp6IEBpjirAiswwPT/wTpqTKm7eOlgziWNQw=
+			+fhArZlExPIzDNzFXf7GImfvFbfvf2ddLrjYoNWAZ3Y=
 			</data>
 		</dict>
 		<key>config.xml</key>
@@ -1220,11 +1476,66 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			fXdutFTZCG/mbWroqjXDrRyKljg=
+			ZUFEJ/RQRxiGFJ/e5LJMNCPhtM4=
 			</data>
 			<key>hash2</key>
 			<data>
-			0kIadtQO0yHKmmAUfq+L7p2LIT87R1h1urUeqPWh8yU=
+			LXjGduq0TUH10D2mBmiBwO1Tkr5F5Ms0QMAQ8sGsZT8=
+			</data>
+		</dict>
+		<key>www/db/highscore.json</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			TPvQkEOnv1j/Ubg9ALU9xPvy31g=
+			</data>
+			<key>hash2</key>
+			<data>
+			Z0kyI6pKEfHFl6chMEa2wte555rL2sEBOvesRmz5tBA=
+			</data>
+		</dict>
+		<key>www/img/cards-svg/full-deck.svg</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			oG7/j/J6WQJGLxPtFyweQpAQCvs=
+			</data>
+			<key>hash2</key>
+			<data>
+			wvB10uupFDZodr0JiL6UilOVcujjE5MTaitWPDNlGHo=
+			</data>
+		</dict>
+		<key>www/img/cards-svg/game_level.svg</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			6DxFtajZoAmlFyu7rHyatYd6MbM=
+			</data>
+			<key>hash2</key>
+			<data>
+			wBF9XeZAuI9BAZdd1vhTYEkEvEQCVbcEmHtERB18kvs=
+			</data>
+		</dict>
+		<key>www/img/cards-svg/game_mode.svg</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			40hWdUjJ3fkQQrRIAvlFgFJ5ZTk=
+			</data>
+			<key>hash2</key>
+			<data>
+			0+NJ1PpjYPFnit4Uzqpc6ZVFf56U15D1yOBFmRBhTco=
+			</data>
+		</dict>
+		<key>www/img/cards-svg/highscore.svg</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			wZeGTr1dIL02TDLg/773AhBq+CQ=
+			</data>
+			<key>hash2</key>
+			<data>
+			8AFiOONXwIDUF0vtYPE5Cb2e9D5lZgpmG6YyS6xuEGU=
 			</data>
 		</dict>
 		<key>www/img/cards-svg/looser.svg</key>
@@ -1242,11 +1553,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			kwvLhL4gJIwM5/27Jujv4ElHIC8=
+			ZroQJIa2eE+iP9hvlj1yzdQesfY=
 			</data>
 			<key>hash2</key>
 			<data>
-			l8Uoo0Xg6sPPvPiyztKiAiFvxDbeQNUSbd8DQaNJ+Ao=
+			AFdwSrfDFdKbwOQk2qA9KFnl6EdfXI5ZfyxSV3WUlKY=
 			</data>
 		</dict>
 		<key>www/img/cards-svg/part_two.svg</key>
@@ -1854,7 +2165,62 @@
 			5rJaQtV0zbsyh1yehSt0TkGgr8hTNZ5IYaA8TGf6m5k=
 			</data>
 		</dict>
-		<key>www/img/cards-svg2/ace_of_spades2.svg</key>
+		<key>www/img/cards-svg_alt/full-deck.svg</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			oG7/j/J6WQJGLxPtFyweQpAQCvs=
+			</data>
+			<key>hash2</key>
+			<data>
+			wvB10uupFDZodr0JiL6UilOVcujjE5MTaitWPDNlGHo=
+			</data>
+		</dict>
+		<key>www/img/cards-svg_alt/looser.svg</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			P50OY2XPcXMtvddrsMW6I/WIlU0=
+			</data>
+			<key>hash2</key>
+			<data>
+			5qG9xDrOUMbcHkPS/1U/6CkoN27ym2LKNPGYLTQaJlw=
+			</data>
+		</dict>
+		<key>www/img/cards-svg_alt/part_one.svg</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			ZroQJIa2eE+iP9hvlj1yzdQesfY=
+			</data>
+			<key>hash2</key>
+			<data>
+			AFdwSrfDFdKbwOQk2qA9KFnl6EdfXI5ZfyxSV3WUlKY=
+			</data>
+		</dict>
+		<key>www/img/cards-svg_alt/part_two.svg</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			pXIzt4KqPFucNBAVCjlupfZC5ts=
+			</data>
+			<key>hash2</key>
+			<data>
+			gZmhDyXVqGQyDih0gea7j/cu/3yzv9yyG/y5BufYK90=
+			</data>
+		</dict>
+		<key>www/img/cards-svg_alt/remember.svg</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			QoCVCYL6PGOgZuV1HxeYyhx6w1M=
+			</data>
+			<key>hash2</key>
+			<data>
+			7yz+vhRof99IK8Ealx4Vvh9w+0rPa13+D8mq646OE/c=
+			</data>
+		</dict>
+		<key>www/img/cards-svg_alt/specials/ace_of_spades2.svg</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -1865,7 +2231,7 @@
 			ZGhmmDkMkBXgUAsmI8Kb4qooIwp9G1nOb9MANfUOjOw=
 			</data>
 		</dict>
-		<key>www/img/cards-svg2/black_joker.svg</key>
+		<key>www/img/cards-svg_alt/specials/black_joker.svg</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -1876,7 +2242,7 @@
 			8q4AziBOd2YfmagT1WfOyLXYs9xy5lhZ3ZszOSztbVQ=
 			</data>
 		</dict>
-		<key>www/img/cards-svg2/jack_of_clubs2.svg</key>
+		<key>www/img/cards-svg_alt/specials/jack_of_clubs2.svg</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -1887,7 +2253,7 @@
 			vMKZfc41dGLtNn1//Kkbptc0QbbklhTRexEmWO6fFDQ=
 			</data>
 		</dict>
-		<key>www/img/cards-svg2/jack_of_diamonds2.svg</key>
+		<key>www/img/cards-svg_alt/specials/jack_of_diamonds2.svg</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -1898,7 +2264,7 @@
 			Btpx7iSCZLrB+Yo3DL5JXgZ029cazv+TO5fd+h1d5lk=
 			</data>
 		</dict>
-		<key>www/img/cards-svg2/jack_of_hearts2.svg</key>
+		<key>www/img/cards-svg_alt/specials/jack_of_hearts2.svg</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -1909,7 +2275,7 @@
 			MdNOsyANIaPvb4EGahrsh3qR5Np1IOV8+izA0zpINuM=
 			</data>
 		</dict>
-		<key>www/img/cards-svg2/jack_of_spades2.svg</key>
+		<key>www/img/cards-svg_alt/specials/jack_of_spades2.svg</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -1920,7 +2286,7 @@
 			kFiNXaEqNriZiM5fRsxFzw8W453uGKJqObmwT4ecgcs=
 			</data>
 		</dict>
-		<key>www/img/cards-svg2/king_of_clubs2.svg</key>
+		<key>www/img/cards-svg_alt/specials/king_of_clubs2.svg</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -1931,7 +2297,7 @@
 			8dDIwipinbUfRA5WBfi9NRITo9NazlFr26WzlbAgZOk=
 			</data>
 		</dict>
-		<key>www/img/cards-svg2/king_of_diamonds2.svg</key>
+		<key>www/img/cards-svg_alt/specials/king_of_diamonds2.svg</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -1942,7 +2308,7 @@
 			93jCMRc/RZJJQRM5acAtC811x3c5bfNR5tgj56CjbAg=
 			</data>
 		</dict>
-		<key>www/img/cards-svg2/king_of_hearts2.svg</key>
+		<key>www/img/cards-svg_alt/specials/king_of_hearts2.svg</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -1953,7 +2319,7 @@
 			QWsJB2AezR5pLNMvvgtMPQsDWZHKI29fETsVA2jYDkU=
 			</data>
 		</dict>
-		<key>www/img/cards-svg2/king_of_spades2.svg</key>
+		<key>www/img/cards-svg_alt/specials/king_of_spades2.svg</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -1964,7 +2330,7 @@
 			WQL1lcQ9eAlrmgU7+Pf3yiRkbByIeztrW2hUFpB9geU=
 			</data>
 		</dict>
-		<key>www/img/cards-svg2/queen_of_clubs2.svg</key>
+		<key>www/img/cards-svg_alt/specials/queen_of_clubs2.svg</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -1975,7 +2341,7 @@
 			bVH+LkGKexbJfckTDeVWWOuqwkAP5xuz6QJOV1JQDZM=
 			</data>
 		</dict>
-		<key>www/img/cards-svg2/queen_of_diamonds2.svg</key>
+		<key>www/img/cards-svg_alt/specials/queen_of_diamonds2.svg</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -1986,7 +2352,7 @@
 			EFf6ty8eYq5P27xZdv2JR0IFNkgwDzcnjbd4mD8i/bs=
 			</data>
 		</dict>
-		<key>www/img/cards-svg2/queen_of_hearts2.svg</key>
+		<key>www/img/cards-svg_alt/specials/queen_of_hearts2.svg</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -1997,7 +2363,7 @@
 			wnMehBDk4rEfVHyHNgESke9w2tWZ4TNJQHNfHbuf6iA=
 			</data>
 		</dict>
-		<key>www/img/cards-svg2/queen_of_hearts2.svg.2020_04_09_12_11_33.5.svg</key>
+		<key>www/img/cards-svg_alt/specials/queen_of_hearts2.svg.2020_04_09_12_11_33.5.svg</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -2008,7 +2374,7 @@
 			21E07vYQfPLZqHDFUS0lYpJmbQfXDnhHrW2NsnDOg0k=
 			</data>
 		</dict>
-		<key>www/img/cards-svg2/queen_of_spades2.svg</key>
+		<key>www/img/cards-svg_alt/specials/queen_of_spades2.svg</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -2019,7 +2385,7 @@
 			IPtKFF62uDSwSML+6xWJuwlZ3R9bK4hxEMZc6+/lqYQ=
 			</data>
 		</dict>
-		<key>www/img/cards-svg2/red_joker.svg</key>
+		<key>www/img/cards-svg_alt/specials/red_joker.svg</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -2030,7 +2396,7 @@
 			7dh4vG//xuWlx1z5sshMjlbyQm2PRliV9mN9DxSeCeo=
 			</data>
 		</dict>
-		<key>www/img/cards-svg2/remember.svg</key>
+		<key>www/img/cards-svg_alt/specials/remember.svg</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -2041,7 +2407,7 @@
 			OYDC7JD2LA4j37aknagFQ0YgFcmd4fQj03jFjGj4Bys=
 			</data>
 		</dict>
-		<key>www/img/cards-svg2/remember.svg.2020_04_09_12_11_33.0.svg</key>
+		<key>www/img/cards-svg_alt/specials/remember.svg.2020_04_09_12_11_33.0.svg</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -2052,7 +2418,7 @@
 			zcAlfgjTEQAEosJR/L7WKLGzpe/iiEz/vAZwlDfKw2o=
 			</data>
 		</dict>
-		<key>www/img/cards-svg2/remember3.svg</key>
+		<key>www/img/cards-svg_alt/specials/remember3.svg</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -2063,7 +2429,7 @@
 			DMUHy+Di6zHYBQabcPjXAajRy+AarweAUA/KmhEayY4=
 			</data>
 		</dict>
-		<key>www/img/cards-svg2/remember_orig.svg</key>
+		<key>www/img/cards-svg_alt/specials/remember_orig.svg</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -2074,7 +2440,7 @@
 			fE+aZMLIKbJF+XHf/KCo4SpEuvKg47wYHIqnJ15D7EA=
 			</data>
 		</dict>
-		<key>www/img/cards-svg2/remember_test.svg</key>
+		<key>www/img/cards-svg_alt/specials/remember_test.svg</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -2085,15 +2451,587 @@
 			Ctq7Cs3COBEdTDa9fFnfsLjz/br9T5YICAHD+6Lc/ec=
 			</data>
 		</dict>
-		<key>www/img/full-deck.svg</key>
+		<key>www/img/cards-svg_alt/standard_deck/ace_of_clubs.svg</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			j7iAqZq1SrMSdEfJQEwV2QbdICU=
+			Sn6G3HWTWAKzlLDUO7InUfNm8Hw=
 			</data>
 			<key>hash2</key>
 			<data>
-			GAdjZciicgTXNzeC1HwBTiVpypHNMiU8amSljeNORJs=
+			jsAFr29n0EFESGvSPcEWSIE9sSGhhUx7mcoSAiEpDuM=
+			</data>
+		</dict>
+		<key>www/img/cards-svg_alt/standard_deck/ace_of_diamonds.svg</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			sMPlI0xFIu5z5l+MZIIhysyMfCE=
+			</data>
+			<key>hash2</key>
+			<data>
+			CZxEWVOZ1U/PqOyiFqinpbZaXBG/q+PWTBq/JNHtVLg=
+			</data>
+		</dict>
+		<key>www/img/cards-svg_alt/standard_deck/ace_of_hearts.svg</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			iYaVuz+16jzEH/oFRUPFgH0Da1U=
+			</data>
+			<key>hash2</key>
+			<data>
+			3i7PWA0wwwkwrjpyScYbkhXBLTcYy52KPVewfoPWvi4=
+			</data>
+		</dict>
+		<key>www/img/cards-svg_alt/standard_deck/ace_of_spades.svg</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			rhUeRANqtQhoTcOH0peaLdrvR3c=
+			</data>
+			<key>hash2</key>
+			<data>
+			LhB7z/9aBsZuTOv8qOQycghAl0yrCQDbEjneSPuDK7A=
+			</data>
+		</dict>
+		<key>www/img/cards-svg_alt/standard_deck/eight_of_clubs.svg</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			41opQGdu5yPgLKe8CG62PlgFLFI=
+			</data>
+			<key>hash2</key>
+			<data>
+			j1so3RwzIeFRH27PMsGEsxNL89ztpv1uO7A0rSwEaMg=
+			</data>
+		</dict>
+		<key>www/img/cards-svg_alt/standard_deck/eight_of_diamonds.svg</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			/NuB2oD4ozzrwps5Zxr7GkEowDQ=
+			</data>
+			<key>hash2</key>
+			<data>
+			2+kSNm+UEzK3sHwDL7vpJ+CdYWw3JFFJom3wO8bMvtI=
+			</data>
+		</dict>
+		<key>www/img/cards-svg_alt/standard_deck/eight_of_hearts.svg</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			CKa74DImOXNVUBnO55LjJHP4W8k=
+			</data>
+			<key>hash2</key>
+			<data>
+			uJiZRSliU83zAp2JLvBb3KkKorLx+l/ittAY4NbCBBI=
+			</data>
+		</dict>
+		<key>www/img/cards-svg_alt/standard_deck/eight_of_spades.svg</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			opV2rPUzwlQyxiLBWMmerLyEX1o=
+			</data>
+			<key>hash2</key>
+			<data>
+			BCnndbfv71MVP1HwCyeAyWovNV8L7Quo+1IP9pe1Kwc=
+			</data>
+		</dict>
+		<key>www/img/cards-svg_alt/standard_deck/five_of_clubs.svg</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			nC5gvymhtetbYzFux0HUF+1gycg=
+			</data>
+			<key>hash2</key>
+			<data>
+			F+opo+nHD3Qrk4tvEzqNEsil7b5z3q0RoR0eHI0d/tA=
+			</data>
+		</dict>
+		<key>www/img/cards-svg_alt/standard_deck/five_of_diamonds.svg</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			jFO8jwq2UTPusJC++UvN29hdGmE=
+			</data>
+			<key>hash2</key>
+			<data>
+			IoIf4Xs8QZCebS+6nQ7zBtvUk8oS32PISfM7s6L3c80=
+			</data>
+		</dict>
+		<key>www/img/cards-svg_alt/standard_deck/five_of_hearts.svg</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			++cm4IbzKTwk8z4vv5uPdO/wMC0=
+			</data>
+			<key>hash2</key>
+			<data>
+			vAErXcsEcI3h36Z1BqBLHsf24hKjFW4D/0S8vhcersY=
+			</data>
+		</dict>
+		<key>www/img/cards-svg_alt/standard_deck/five_of_spades.svg</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			b+jcmBcgoQax/n2XBioeDaYhfIA=
+			</data>
+			<key>hash2</key>
+			<data>
+			dyn2g4uWMU4orSyUdx1lim8NTK/oD0Y4x9UI/KrRMRU=
+			</data>
+		</dict>
+		<key>www/img/cards-svg_alt/standard_deck/four_of_clubs.svg</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			1SMbiLv+DSNcmc8dQh8vKCHK0mk=
+			</data>
+			<key>hash2</key>
+			<data>
+			e9QH+1Qmh5PqgM7CNWcNX115gfPWCM2Q++8yFnQgXU4=
+			</data>
+		</dict>
+		<key>www/img/cards-svg_alt/standard_deck/four_of_diamonds.svg</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			MHaQz9abBIZvwcTZ6MuOMaBK3LM=
+			</data>
+			<key>hash2</key>
+			<data>
+			d7Jm0lfWGsJzTqzzxkXgvj60lnvlWqczIRFEnaocsos=
+			</data>
+		</dict>
+		<key>www/img/cards-svg_alt/standard_deck/four_of_hearts.svg</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			GcZpsUw8k4buaZ9rp6sHaw9RG+I=
+			</data>
+			<key>hash2</key>
+			<data>
+			ooya0K1XvSwbmv7pcT1k2rKQvRHxxOla9l5LTd6bD48=
+			</data>
+		</dict>
+		<key>www/img/cards-svg_alt/standard_deck/four_of_spades.svg</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			VGyfMfELr91OCbVAzKDY7yWVkE0=
+			</data>
+			<key>hash2</key>
+			<data>
+			J2BxS/HquwuuBRp1z7vjQDwv04AR7WDV5VvCMUI/UDw=
+			</data>
+		</dict>
+		<key>www/img/cards-svg_alt/standard_deck/jack_of_clubs.svg</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			yQ1TuGWqctpGlJb9ZrqADuAqegM=
+			</data>
+			<key>hash2</key>
+			<data>
+			7jyfvBun4R1qp4Zz8gYt9ZG7IGErojuayysWPJpkexI=
+			</data>
+		</dict>
+		<key>www/img/cards-svg_alt/standard_deck/jack_of_diamonds.svg</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			7auq05vwQvjEOpjdBGgexKFGlUw=
+			</data>
+			<key>hash2</key>
+			<data>
+			BqcIpEs/9cDUJdAxHjJGfCtMqkltohniFgjUbHB6MiQ=
+			</data>
+		</dict>
+		<key>www/img/cards-svg_alt/standard_deck/jack_of_hearts.svg</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			9/PgldTWX4VRUd2TC8yno7RZvw8=
+			</data>
+			<key>hash2</key>
+			<data>
+			kligURjmxNR3Kd9LBJTJf+KOIHa79BTJBmJ85/pO7Kw=
+			</data>
+		</dict>
+		<key>www/img/cards-svg_alt/standard_deck/jack_of_spades.svg</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			J0Ie5VGMI1l4SieF+YzQb09SKhg=
+			</data>
+			<key>hash2</key>
+			<data>
+			9cLbCJZlDarWOR7MSZ3cQjIGlgniWVfbDuZozjJPU3s=
+			</data>
+		</dict>
+		<key>www/img/cards-svg_alt/standard_deck/king_of_clubs.svg</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			qX5yNk0Cc81DAFVw8mCQbJuqbdU=
+			</data>
+			<key>hash2</key>
+			<data>
+			8w1Cwhe+ZXcMm/lIrdodFLi+pDB5bxssLfa04VPZbzo=
+			</data>
+		</dict>
+		<key>www/img/cards-svg_alt/standard_deck/king_of_diamonds.svg</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			jKzNFsHbE/Yw0VkwhSFcroHS+4o=
+			</data>
+			<key>hash2</key>
+			<data>
+			O928INuBBKw4SYBxoZST9UPACq+jzXfN9tfEhFHwMDo=
+			</data>
+		</dict>
+		<key>www/img/cards-svg_alt/standard_deck/king_of_hearts.svg</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			21cXyd9LdCBjJTAOHo9di/apb8E=
+			</data>
+			<key>hash2</key>
+			<data>
+			pKTlNpE0Sjaivoiw3vOmrgo8WqIeb2FQMRj4IlPDfL4=
+			</data>
+		</dict>
+		<key>www/img/cards-svg_alt/standard_deck/king_of_spades.svg</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			lffTT1qud9wtvSdGL7Vegs0r5Jo=
+			</data>
+			<key>hash2</key>
+			<data>
+			0JLc+P2EsJhjAhJ5yAxcSIIafajSgyIjzX1J3ANgONo=
+			</data>
+		</dict>
+		<key>www/img/cards-svg_alt/standard_deck/nine_of_clubs.svg</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			E8tlKwu9mZbGc7W7rNqxvWsQilM=
+			</data>
+			<key>hash2</key>
+			<data>
+			dbewh8odlNniYFz0D733ah8olhtnhueA2JwgV62mCXE=
+			</data>
+		</dict>
+		<key>www/img/cards-svg_alt/standard_deck/nine_of_diamonds.svg</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			8QGo+3wE85DmAqk/VoTBpVm79J4=
+			</data>
+			<key>hash2</key>
+			<data>
+			kHyOpqJ72p663r9QylD6cQOmcTZrmZZsthwKwAOsEWw=
+			</data>
+		</dict>
+		<key>www/img/cards-svg_alt/standard_deck/nine_of_hearts.svg</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			4FCZ0gkTLCPLE9ji1muCsP6NYY4=
+			</data>
+			<key>hash2</key>
+			<data>
+			o3NzApiDUpwb6apG0ULO0906t2tby59QCY+2Q5dq6iw=
+			</data>
+		</dict>
+		<key>www/img/cards-svg_alt/standard_deck/nine_of_spades.svg</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			0tKDh8uA3md3BUDXUHIu8wk+2m4=
+			</data>
+			<key>hash2</key>
+			<data>
+			FoI44JiPx/U+hfq80R3C2U8I5JpBQgKlAajxCzLkSvI=
+			</data>
+		</dict>
+		<key>www/img/cards-svg_alt/standard_deck/queen_of_clubs.svg</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			H1BLsCSuuSKcwTof3q4gwJbkT+Y=
+			</data>
+			<key>hash2</key>
+			<data>
+			OutFnYhXyUAKQKvwfk8iAReRfZ4Bj8DVqUJ9/EoWVzo=
+			</data>
+		</dict>
+		<key>www/img/cards-svg_alt/standard_deck/queen_of_diamonds.svg</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			1MYkQuWwW3fKvsEWgxpOqdye1UE=
+			</data>
+			<key>hash2</key>
+			<data>
+			II6aLLpwCRrBMEW/UaJ7cOxv1ZaJZ/sRJDZlBQUuwC8=
+			</data>
+		</dict>
+		<key>www/img/cards-svg_alt/standard_deck/queen_of_hearts.svg</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			criFRBi9pibMV1tPpZpnRAnlWnY=
+			</data>
+			<key>hash2</key>
+			<data>
+			UIk0XXDqBq4acKPS+6ymt7a8aOdIphBnUIAHv6vy+CQ=
+			</data>
+		</dict>
+		<key>www/img/cards-svg_alt/standard_deck/queen_of_spades.svg</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			J5ewoaapcJX8Z84VG6QW47E0lf8=
+			</data>
+			<key>hash2</key>
+			<data>
+			kUsAA66ZUa30ehL0IqTbn1UNLWr5aa1D1GaIwo0UGBY=
+			</data>
+		</dict>
+		<key>www/img/cards-svg_alt/standard_deck/seven_of_clubs.svg</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			QQ1JS1+mNVXvuYi4Vm/ag8d83GU=
+			</data>
+			<key>hash2</key>
+			<data>
+			fmhKvdUKdras/2FqfdOGY5L8jaqKKmFqZC/NAkmD3nY=
+			</data>
+		</dict>
+		<key>www/img/cards-svg_alt/standard_deck/seven_of_diamonds.svg</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			XjmysfFyI9FgUovR4VhcaUnUuhs=
+			</data>
+			<key>hash2</key>
+			<data>
+			kTFTrEcu5advguV7Gq7eT5CpP0Q86A3ceMIC0VH8Fwg=
+			</data>
+		</dict>
+		<key>www/img/cards-svg_alt/standard_deck/seven_of_hearts.svg</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			BWB24sFOCfazsVCUI+8KAYkDFD8=
+			</data>
+			<key>hash2</key>
+			<data>
+			NBtwdcxMsyvV4w1CatsXCeAvWpm1R9DeYy+Q18jOJiY=
+			</data>
+		</dict>
+		<key>www/img/cards-svg_alt/standard_deck/seven_of_spades.svg</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			AGhvWOxCMzvcNl24pIGz4mwKoQ4=
+			</data>
+			<key>hash2</key>
+			<data>
+			SakQ6rmWP6dYJetdq5YT1eM66QNYCgUMMhScZ8mIPUE=
+			</data>
+		</dict>
+		<key>www/img/cards-svg_alt/standard_deck/six_of_clubs.svg</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			VSkEqjGbEYAA3/Fwc7b86gGq/4w=
+			</data>
+			<key>hash2</key>
+			<data>
+			TjxQ3FdBVlHSEiI8RSznVV6A9Bc5vCDqf/VvGbIeCp8=
+			</data>
+		</dict>
+		<key>www/img/cards-svg_alt/standard_deck/six_of_diamonds.svg</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			TXSDz8zQoP4Qe5amiJYdA0TOFsw=
+			</data>
+			<key>hash2</key>
+			<data>
+			BTnrtz8HsybTLM1p3+gCiJ0qUX0mVIk1IePQn/Lc4a4=
+			</data>
+		</dict>
+		<key>www/img/cards-svg_alt/standard_deck/six_of_hearts.svg</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			wf7VnY5LpB8e1nvctnaMS3GsVwg=
+			</data>
+			<key>hash2</key>
+			<data>
+			Eq6iC2SDW1fR6OKNmFLzW1gavhJTEETffreUOkcwPCk=
+			</data>
+		</dict>
+		<key>www/img/cards-svg_alt/standard_deck/six_of_spades.svg</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			OOgE6lYrNZJgwtey3ei0dq80KfQ=
+			</data>
+			<key>hash2</key>
+			<data>
+			HVbNQpq8X+q5u/IlTK1DTLTl5h4uXKRRetNBFnBHv0U=
+			</data>
+		</dict>
+		<key>www/img/cards-svg_alt/standard_deck/ten_of_clubs.svg</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			je04AHoHrS8YplVOkjMHM2SqbWs=
+			</data>
+			<key>hash2</key>
+			<data>
+			NnAQBHuaYa66f39drk0Zlnr3VA5c/QX79qV5PONN3yM=
+			</data>
+		</dict>
+		<key>www/img/cards-svg_alt/standard_deck/ten_of_diamonds.svg</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			xR78qR82zbgHBCkcNKOzUg6+oE8=
+			</data>
+			<key>hash2</key>
+			<data>
+			kzlC3c3lBxQ0ur6s1RVTF/PX40dmrXAaXslBQEf21ws=
+			</data>
+		</dict>
+		<key>www/img/cards-svg_alt/standard_deck/ten_of_hearts.svg</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			BKascnJvLX0tbICpeEw4JSEZ2dQ=
+			</data>
+			<key>hash2</key>
+			<data>
+			Wm7opv8PmDhIr+7dmLubx4fL8DBorHwzLWi/NXmWF4Y=
+			</data>
+		</dict>
+		<key>www/img/cards-svg_alt/standard_deck/ten_of_spades.svg</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			iElwR7l8/XW+vepMpiLcBsjy6b8=
+			</data>
+			<key>hash2</key>
+			<data>
+			rIcAxN5pLqEvEiODR9ODMTGk2fPoaR/VkKLrKPYuDb4=
+			</data>
+		</dict>
+		<key>www/img/cards-svg_alt/standard_deck/three_of_clubs.svg</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			5CgXe3AXN4+t0VoCgJFUs56611I=
+			</data>
+			<key>hash2</key>
+			<data>
+			58n6Ywmi2LMDoytlwMztOcLxiRp/kS3vrEPZk9hpwW0=
+			</data>
+		</dict>
+		<key>www/img/cards-svg_alt/standard_deck/three_of_diamonds.svg</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			7rDKOQpMB7GVK6kHGyUl5GSXmGI=
+			</data>
+			<key>hash2</key>
+			<data>
+			/O811gzUygmbdTEQ2MMtuOuxzdbeIByKdZdAt0rox6k=
+			</data>
+		</dict>
+		<key>www/img/cards-svg_alt/standard_deck/three_of_hearts.svg</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Iq1KQdNBR+pcdK8CYlaZPbM9eAU=
+			</data>
+			<key>hash2</key>
+			<data>
+			QneX1eBrmSbatAYmsQt5XO4resldHBWUNnhflnMOdn4=
+			</data>
+		</dict>
+		<key>www/img/cards-svg_alt/standard_deck/three_of_spades.svg</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			3HO0fxNC/tZYdN9UWtKJGvFTWVs=
+			</data>
+			<key>hash2</key>
+			<data>
+			HoZXdnHsMAJPmGAGpOOWOm1ZCdGe31ZBwDTJsSUrp/0=
+			</data>
+		</dict>
+		<key>www/img/cards-svg_alt/standard_deck/two_of_clubs.svg</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			CG7+WFe4beE5kgCe9lpmXl49RTs=
+			</data>
+			<key>hash2</key>
+			<data>
+			et0pXsoXP5Kn6Ukj3YPUvojBIf4fgN00mLbtSpNixRo=
+			</data>
+		</dict>
+		<key>www/img/cards-svg_alt/standard_deck/two_of_diamonds.svg</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			BdnWVSakqxxJda+6Wo45fpvhzc0=
+			</data>
+			<key>hash2</key>
+			<data>
+			Ea0N4vpAn1Hy29Eepwd0ZhuCXvsHVojud07VfyV5/hQ=
+			</data>
+		</dict>
+		<key>www/img/cards-svg_alt/standard_deck/two_of_hearts.svg</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			TgktjFDTRayjImuNO3sxAslFpLw=
+			</data>
+			<key>hash2</key>
+			<data>
+			nXPu45hbOPEfuwEKRC6qIKRM6Uq7Qcpt89jmHtYlb6w=
+			</data>
+		</dict>
+		<key>www/img/cards-svg_alt/standard_deck/two_of_spades.svg</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			EIh/i7oGJs4hr3ii1jijuLlM/60=
+			</data>
+			<key>hash2</key>
+			<data>
+			iz7fD1LHiTXLk/2yFijc9yW0T4xoaAfaqliPu+chR0c=
+			</data>
+		</dict>
+		<key>www/img/cards-svg_alt/winner.svg</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			S23eQYLI8uoWeYy5FtHWj+qewR4=
+			</data>
+			<key>hash2</key>
+			<data>
+			5rJaQtV0zbsyh1yehSt0TkGgr8hTNZ5IYaA8TGf6m5k=
 			</data>
 		</dict>
 		<key>www/img/logo.png</key>
@@ -2107,15 +3045,37 @@
 			TSDEsD4Q1zEbMYnrFrDU6Ifc8EUux0/1NakyZY0Z1ow=
 			</data>
 		</dict>
+		<key>www/img/logo.svg</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			fDfLj9rjvInKj9CvitsXX8sDx/4=
+			</data>
+			<key>hash2</key>
+			<data>
+			M0yoseBqGaFI+Mj57HTbF1I5IAE7k1cUAnAK99w1HS8=
+			</data>
+		</dict>
+		<key>www/img/test.svg</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			aTCPoXA7dmUqrCHWtBqnFPz0Te4=
+			</data>
+			<key>hash2</key>
+			<data>
+			XWkh9F5WORVz0d0kZycEwv8ac0xJuAZ/KnkRy+Cn47w=
+			</data>
+		</dict>
 		<key>www/index.html</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			YIL7Lr+9CylsxBYmLw5QIUCMJzs=
+			rqVB3zC4/vK/gTXOxzsmhuxfwxg=
 			</data>
 			<key>hash2</key>
 			<data>
-			GhApgL911GEnSXIaXfmPlVMfH21s2byRReZ8RfA87zo=
+			lxwmJET4cQhYdGILUPJaj0FpC3apM4URGcq8zWAgZdA=
 			</data>
 		</dict>
 		<key>www/js/index.js</key>
@@ -2188,22 +3148,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			hUywNwGcwsCCUWLczB58tgJJZDg=
+			8u8IMxUsZLSmfj9jqF6FTvHlbKA=
 			</data>
 			<key>hash2</key>
 			<data>
-			4qS5e+geGz6yCZbSgMWcHoTZgibksIzhCqJ7qMy0vl8=
+			sCNXrSL878VXD7Nr4GYuWxPydNvJB2ANuOiUk8XRk4Q=
 			</data>
 		</dict>
 		<key>www/js/single/index.js</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			qGtoHgFLhGIUuwX2lvj9wi2XV6c=
+			SLJKw6+9bAesWkQIJJtOqndU7zw=
 			</data>
 			<key>hash2</key>
 			<data>
-			BRHHqN+u61w8+sO8r9vgGVZepqCHH8dl5qjY8+RjBD8=
+			hbe+tcQ8NYbzrZEU9YamxnkyR+xDlLMpNTKtCQfsfqY=
 			</data>
 		</dict>
 		<key>www/js/single/serving.js</key>
@@ -2232,11 +3192,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			nVxpT7cSsq9xQNVgdGLk9fI01jw=
+			PB/5p6f/Djw5OZSbQouNkB8JiIU=
 			</data>
 			<key>hash2</key>
 			<data>
-			n3657FhpVO0BrpRmnXeQho7yfKvMVBh0QcoYkQr2O8w=
+			lI3ExRlxRu9gf3Djl6gruHgLBEg/J/+UF70PdDHQirU=
 			</data>
 		</dict>
 		<key>www/test-index.html</key>

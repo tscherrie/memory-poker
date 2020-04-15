@@ -7,7 +7,7 @@
 		<key>ApplicationPath</key>
 		<string>Applications/MemoryPoker.app</string>
 		<key>CFBundleIdentifier</key>
-		<string>poker.memory.app</string>
+		<string>poker.memory</string>
 		<key>CFBundleShortVersionString</key>
 		<string>1.0.0</string>
 		<key>CFBundleVersion</key>
@@ -20,7 +20,7 @@
 	<key>ArchiveVersion</key>
 	<integer>2</integer>
 	<key>CreationDate</key>
-	<date>2020-04-12T20:00:21Z</date>
+	<date>2020-04-15T12:06:33Z</date>
 	<key>Name</key>
 	<string>MemoryPoker</string>
 	<key>SchemeName</key>
