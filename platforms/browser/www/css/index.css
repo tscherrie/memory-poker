@@ -54,8 +54,6 @@ table.sortable thead {
     cursor: default;
 }
 
-
-
 html>body tbody.scrollContent {
 	display: block;
 	height: 300px;
@@ -63,6 +61,38 @@ html>body tbody.scrollContent {
 	width: 100%;
   text-align: center;
 }
+
+/* Don't show scrollbar */
+::-webkit-scrollbar {
+    display: none;
+}
+
+/* Exclude the left collum "rank" drom sorting */
+table.sortable tbody {
+    counter-reset: sortabletablescope;
+}
+table.sortable thead tr::before {
+    width: 100px;
+    content: "  ";
+    display: table-cell;
+}
+table.sortable tbody tr::before {
+  width: 100px;
+    content: counter(sortabletablescope);
+    counter-increment: sortabletablescope;
+    display: table-cell;
+}
+
+/* Hide the small sort arrow */
+#sorttable_sortfwdind {
+  display: none;
+}
+
+
+
+
+
+
 
 /* define width of TH elements: 1st, 2nd, and 3rd respectively.          */
 /* Add 16px to last TH for scrollbar padding. All other non-IE browsers. */
@@ -79,9 +109,6 @@ html>body thead.fixedHeader th + th + th {
 	width: 316px
 }
 
-html>body thead.fixedHeader th + th + th + th {
-	width: 332px
-}
 
 /* define width of TD elements: 1st, 2nd, and 3rd respectively.          */
 /* All other non-IE browsers.                                            */
@@ -98,9 +125,6 @@ html>body tbody.scrollContent td + td + td {
 	width: 300px
 }
 
-html>body tbody.scrollContent td + td + td + td {
-	width: 300px
-}
 
 
 a:link {
@@ -150,7 +174,7 @@ a:active {
 
 
 
-#game_mode_card, #game_screen_card, #card, #card2, #memory_card, #looser_card, #winner_card, #highscore_card, .tableContainer, .card_container {
+#game_mode_card, #game_screen_card, #card, #card2, #memory_card, #looser_card, #winner_card, #highscore_card, .tableContainer, .cardContainer {
     width:90%;
     height: 70%;
     display:block;
@@ -160,6 +184,10 @@ a:active {
     top:0;
     bottom:0;
     margin:auto;
+}
+
+.cardContainer {
+  pointer-events:none;
 }
 
 h1 {

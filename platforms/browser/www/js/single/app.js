@@ -33,7 +33,7 @@ function choose_level_singleplayer() {
       // Memory number is use in part two of the game to know how many cards to remember.
       var num = 10;
       num = 2;                          // FOR TESTING FOR TESTING FOR TESTING FOR TESTING FOR TESTING FOR TESTING FOR TESTING FOR TESTING FOR TESTING
-      
+
       memory_number = num;
       close_screen("level_screen");
       open_screen("game_part_one");
@@ -249,8 +249,8 @@ function highscore () {
   close_screen("winner");
   open_screen("highscore");
 
-  var myTH = document.getElementsByTagName("th")[0];
-  sorttable.innerSortFunction.apply(myTH, []);
+  scoreboard_result();
+
 
   // Use SNAP library doc: http://snapsvg.io/docs/
   // load the remember card
@@ -276,6 +276,18 @@ function highscore () {
 
 
 // Helper functions
+
+function scoreboard_result() {
+
+
+  // Sort table for Score
+  var myTH = document.getElementsByTagName("th")[2];
+  sorttable.innerSortFunction.apply(myTH, []);
+};
+
+
+
+
 
 function start_timer() {
   startTime = performance.now();
