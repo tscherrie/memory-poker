@@ -49,12 +49,14 @@ app.initialize();
 // MEMORY POKER FIRST SCREEN - SINGLE/MULTIPLAYER //
 
 // Store global vars before each game
-var memory_number;
+var number_of_cards_temp;
+var number_of_cards;
 var chosen_suit;
 var chosen_rank;
 var chosen_card;
 var startTime = null;
 var endTime;
+var time_seconds;
 
 //Number of cards in a cards deck
 var deck_size;

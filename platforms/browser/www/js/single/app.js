@@ -3,7 +3,7 @@
 
 
 // Following GLOBAL vars are initiated and reset in index.js
-// var memory_number;
+// var number_of_cards_temp;
 // var chosen_suit;
 // var chosen_rank;
 // var chosen_card;
@@ -34,7 +34,8 @@ function choose_level_singleplayer() {
       var num = 10;
       num = 2;                          // FOR TESTING FOR TESTING FOR TESTING FOR TESTING FOR TESTING FOR TESTING FOR TESTING FOR TESTING FOR TESTING
 
-      memory_number = num;
+      number_of_cards_temp = num;
+      number_of_cards = num;
       close_screen("level_screen");
       open_screen("game_part_one");
       new_game(num);
@@ -42,14 +43,14 @@ function choose_level_singleplayer() {
     advanced.node.onclick = function () {
       // Memory number is use in part two of the game to know how many cards to remember.
       var num = 26;
-      memory_number = num;
+      number_of_cards_temp = num;
       close_screen("level_screen");
       open_screen("game_part_one");
       new_game(num);
     };
     pro.node.onclick = function () {
       var num = 52;
-      memory_number = num;
+      number_of_cards_temp = num;
       close_screen("level_screen");
       open_screen("game_part_one");
       new_game(num);
@@ -66,7 +67,7 @@ function choose_level_singleplayer() {
       };
       close_screen("level_screen");
       open_screen("game_part_one");
-      memory_number = num;
+      number_of_cards_temp = num;
       new_game(num);
     };
     // snaps grabs the svg element from dom and appends the following code to it
@@ -178,10 +179,10 @@ function remember_new_card() {
 function check_chosen_card() {
             console.log("chosen_suit: "+chosen_suit);
             console.log("chosen_rank: "+chosen_rank);
-            console.log("memory_number: "+memory_number);
+            console.log("number_of_cards_temp: "+number_of_cards_temp);
   // Check if suit and rank are chosen..
   if (chosen_suit && chosen_rank) {
-    memory_number -= 1;
+    number_of_cards_temp -= 1;
 
 
     var chosen_card = chosen_rank + "_of_" + chosen_suit;
@@ -192,7 +193,7 @@ function check_chosen_card() {
 
     console.log('Chosen Card: ' + chosen_card);
     // Go to next card or end the game
-    if (chosen_card == shuffled_deck[0] && memory_number < 1) {
+    if (chosen_card == shuffled_deck[0] && number_of_cards_temp < 1) {
       snap.clear();
       // Got to results after last card
       winner();
@@ -278,12 +279,62 @@ function highscore () {
 // Helper functions
 
 function scoreboard_result() {
+  // Get all successfully guessed cards
+  var cards = number_of_cards - (number_of_cards - number_of_cards_temp);
+  var sec = time_seconds;
+  // Score is "number of cards memorized and remembered in 10 minutes"
+  var score = cards / (sec / 600);
+  score = Math.round(score);
+
+  // Add results to json
+  var new_json = { 'cards': cards, 'sec': sec, 'score': score };
+  var localStorage = window.localStorage;
+
+  // give the new score a localStorage key (int of current length)
+  var key = localStorage.length;
+  // Put the new score into storage
+  localStorage.setItem(key, JSON.stringify(new_json));
 
 
-  // Sort table for Score
-  var myTH = document.getElementsByTagName("th")[2];
-  sorttable.innerSortFunction.apply(myTH, []);
+
+
+  // Get higscore from local localStorage
+  var entire_json = [];
+  var i;
+  for (i = 0; i < localStorage.length; i++) {
+    var key_name = localStorage.key(i);
+    // Retrieve the object from storage
+    var retrievedString = localStorage.getItem(key_name);
+    var retrievedJson = JSON.parse(retrievedString);
+    console.log("retrievedJson: "+retrievedJson);
+    entire_json.push(retrievedJson);
+  }
+  console.log(JSON.stringify(entire_json));
+  appendData(entire_json);
+
+  // Write data from json to table
+  function appendData(entire_json) {
+    // Find a <table> element with id="scoreboard_table":
+    var table = document.getElementById("scoreboard_table");
+    for (var i = 0; i < entire_json.length; i++) {
+      // Create an empty <tr> element and add it to the 1st position of the table:
+      var row = table.insertRow(-1);
+      // Insert new cells (<td> elements) at the 1st and 2nd position of the "new" <tr> element:
+      var cell1 = row.insertCell(0);
+      var cell2 = row.insertCell(1);
+      var cell3 = row.insertCell(2);
+      // Add some text to the new cells:
+      cell1.innerHTML = entire_json[i].cards;
+      cell2.innerHTML = entire_json[i].sec;
+      cell3.innerHTML = entire_json[i].score;
+    };
+    // Sort table for Score
+    var myTH = document.getElementsByTagName("th")[2];
+    sorttable.innerSortFunction.apply(myTH, []);
 };
+};
+
+
 
 
 
@@ -300,8 +351,8 @@ function stop_timer() {
   timeDiff /= 1000;
 
   // get seconds
-  var seconds = Math.round(timeDiff);
-  console.log(seconds + " seconds");
+  time_seconds = Math.round(timeDiff);
+  console.log(time_seconds + " time_seconds");
 }
 
 
