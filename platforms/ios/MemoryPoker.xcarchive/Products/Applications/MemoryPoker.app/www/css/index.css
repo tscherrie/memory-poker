@@ -137,8 +137,14 @@ a:focus {
 a:active {
   color: black;
 }
+
+.cardContainer, .tableContainer {
+  pointer-events:none;
+}
+
 /* When the inputs get focus, do something */
 #card_input{
+  pointer-events: auto;
   background-color: transparent;
   color: transparent;
   outline: none;
@@ -163,11 +169,12 @@ a:active {
     background-color: white;
 }
 #scoreboard_table{
+  pointer-events: auto;
   position: absolute;
   display: block;
   margin: auto;
   width: 16em;
-  top: 13%;
+  top: 15%;
   left: 0;
   right: 0;
 }
@@ -184,10 +191,6 @@ a:active {
     top:0;
     bottom:0;
     margin:auto;
-}
-
-.cardContainer {
-  pointer-events:none;
 }
 
 h1 {

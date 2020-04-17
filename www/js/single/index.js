@@ -64,7 +64,10 @@ var initialHref = window.location.href;
 var deck_size;
 var shuffled_deck;
 var final_deck;
+//SVG image modifier
 var snap;
+//ProgressBar
+var progress_bar = new ProgressBar.Line('#container');
 
 
 // Show all close every game screen

@@ -259,7 +259,8 @@ function highscore () {
     // the group of suits and ranks has an id in the svg file, defined with INKSCAPE
     var solo = card.select("#new_game_btn");
     solo.node.onclick = function () {
-      window.location.reload(true);
+      restartGame();
+
     };
     // snaps grabs the svg element from dom and appends the following code to it
     snapw = Snap("#highscore_card");
@@ -277,6 +278,16 @@ function highscore () {
 
 
 // Helper functions
+
+
+function restartGame() {
+  // // Show splash screen (useful if your app takes time to load)
+  // navigator.splashscreen.show();
+  // // Reload original app url (ie your index.html file)
+  // window.location = initialHref;
+  window.location.reload(true);
+};
+
 
 function scoreboard_result() {
   // Get all successfully guessed cards

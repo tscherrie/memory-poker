@@ -138,7 +138,7 @@ a:active {
   color: black;
 }
 
-.cardContainer {
+.cardContainer, .tableContainer {
   pointer-events:none;
 }
 
@@ -169,11 +169,12 @@ a:active {
     background-color: white;
 }
 #scoreboard_table{
+  pointer-events: auto;
   position: absolute;
   display: block;
   margin: auto;
   width: 16em;
-  top: 13%;
+  top: 15%;
   left: 0;
   right: 0;
 }
