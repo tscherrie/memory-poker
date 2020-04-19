@@ -169,6 +169,7 @@ function remember_new_card() {
     // snaps grabs the svg element from dom and appends the following code to it
     snap = Snap("#memory_card");
     // TODO don't append each time
+    
     snap.append(card);
 
   });

@@ -134,7 +134,7 @@ function remember_new_card() {
     var ranks = card.selectAll("#two, #three, #four, #five, #six, #seven, #eight, #nine, #ten, #jack, #queen, #king, #ace");
     // check for each suit in set of suits, if it gets clicked
     suits.forEach(function(suit){
-        suit.node.onclick = function () {
+        suit.node.ontouchstart = function () {
           // get back the id of the clicked suit
           chosen_suit = suit.node.id;
 
@@ -152,7 +152,7 @@ function remember_new_card() {
       });
       // check for each rank in set of ranks, if it gets clicked
       ranks.forEach(function(rank){
-          rank.node.onclick = function () {
+          rank.node.ontouchstart = function () {
             // get back the id of the clicked rank
             chosen_rank = rank.node.id;
 
@@ -169,6 +169,7 @@ function remember_new_card() {
     // snaps grabs the svg element from dom and appends the following code to it
     snap = Snap("#memory_card");
     // TODO don't append each time
+    snap.clear(card);
     snap.append(card);
 
   });
