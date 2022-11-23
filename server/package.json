@@ -4,6 +4,6 @@
   "description": "become a memory champion",
   "dependencies": {
     "biguint-format": "^1.0.1",
-    "socket.io": "^2.3.0"
+    "socket.io": "^2.5.0"
   }
 }
